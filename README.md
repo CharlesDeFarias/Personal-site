@@ -1,101 +1,17 @@
-## Open Source, Fully customizable Web Developer Portfolio Template
-Built with HTML, Flexbox (and soon to be a bit of JS)
+# My portfolio website
+This is my first (though definitely not final) attempt at a personal portfolio website. I used a template located here: https://github.com/bmorelli25/portfolio-template
 
-To view a live demo, **[click here](https://bmorelli25.github.com/portfolio-template)**
+![Site screenshot](imagehere)
 
-This repo is an easily customizable personal portfolio template. Feel free to use it as-is or customize it as much as you want. I wanted to build a very simple template without any unnecessary bloat. 
+## How It's Made:
 
----
+**Tech used:** HTML, CSS and soon Javascript
 
-There are 8 customizable sections:
----
-**Jumbotron** - Edit the `h1` and `p` in the jumbotron-text `div`
-```
-<div class="jumbotron-text">
-  <h1>Brandon Morelli</h1>
-  <p>Full-Stack Web Developer in Boston, Ma.</p>
-</div>
-```
----
-**About** - Edit the `h2` and `p`, or add more, in the main-content `div`
-```
-<div class="main-content">
-  <div class="content-header">
-    <a class="anchor" name="about"></a>
-    <h2>About</h2>
-  </div>
-  <div class="content-body">
-    <p>text here</p>
-    <p>text here</p>
-  </div>
-</div>
-```
----
-**Experience** - Experiences are organized in content-body `div`. There is an `h4` and a `p` that you can edit.
-```
-          <div class="content-body">
-            <div class="card">
-              <div class="card-header">
-                <h4>Company <span class="job-title">Job Title</span></h4>
-              </div>
-              <div class="card-content">
-                <p>Paragraph text</p>
-              </div>
-            </div>
-```
----
-**Education** - Stored in a card `div`. Edit the `h4` and `p` tags
-```
-            <div class="card">
-              <div class="card-header">
-                <h4>School <span class="job-title">Dates Attended</span></h4>
-              </div>
-              <div class="card-content">
-                <p>Paragraph Text</p>
-              </div>
-            </div>
-```
----
-**Project** - Projects are stored in project-card `div`s. Edit the `image`, `h4`, and `p`
-```
-            <div class="project-card">
-              <div class="project-image">
-                <img src="http://placehold.it/250x350">
-              </div>
-              <div class="project-content">
-                <h4>Project Name</h4>
-                <p>Paragraph text</p>
-                <a href="#">Link Text</a>
-              </div>
-            </div>
-```
----
-**Skills** - Simply list items. Add or remove `li` to add/remove skills.
-```
-            <ul class="ul-skills">
-              <li class="li-skills">Javascript</li>
-            </ul>
-```
----
-**Contact** - Simply cahnge the `address` to include your email address
-```
-<form method="POST" action="https://formspree.io/email@email.com">
-```
----
-**Footer** - content-body `div` with an editable `p`
-```
-          <div class="content-body">
-            <p>Copyright YOUR NAME 2017</p>
-          </div>
-```
----
+This was a really simple template that came with no responsiveness and only HTML and CSS. I've made basic changes to the HTML and will be making the site more responsive before adding Javascript for more fluid navigation of the side and general effects to make it more pleasant.
 
-##### To do
-- [ ] Make responsive
-- [ ] Smooth Scrolling
-- [ ] Other effects?
+## Optimizations
+There's a lot of work to be done on this website. I need to make it more responsive and also restructure the HTML itself. In particular, it bothers me how space is created on this template using empty anchor tags instead of margin or padding. I want to make it so my portfolio is easier to read and in general, I want to make the site more compact which seems to be my natural tendency
 
+## Lessons Learned:
 
----
-
-Inspired by this [template](https://github.com/RyanFitzgerald/devportfolio-template), I wanted to build a similiar template, but using Flexbox instead of bootstrap and jQuery.
+Mostly, I learned that I hate templates and need to practice using them a lot more as they're an unfortunate necessity of being a software engineer. I encountered a lot of scary templates with several files with code I couldn't understand like SASS.

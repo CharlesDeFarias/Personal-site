@@ -100,7 +100,10 @@ body {
 .row {
   display: flex;
 }
-
+.row img{
+  width:250px;
+  height:350px;
+}
 .white {
   background: white;
 }
